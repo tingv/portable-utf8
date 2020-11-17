@@ -1,5 +1,5 @@
 {
-    "name": "voku/portable-utf8",
+    "name": "tingv/portable-utf8",
     "description": "Portable UTF-8 library - performance optimized (unicode) string functions for php.",
     "type": "library",
     "keywords": [
@@ -10,7 +10,7 @@
         "utf-8",
         "utf8"
     ],
-    "homepage": "https://github.com/voku/portable-utf8",
+    "homepage": "https://github.com/tingv/portable-utf8",
     "license": "(Apache-2.0 or GPL-2.0)",
     "authors": [
         {
