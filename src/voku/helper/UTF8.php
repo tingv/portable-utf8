@@ -4158,7 +4158,7 @@ final class UTF8
                  * @psalm-suppress RedundantCondition
                  */
                 if ($str_chars === []) {
-                    $str_chars = self::count_chars($str, true, false);
+                    $str_chars = self::count_chars($test, true, false);
                 }
                 foreach (self::count_chars($test3) as $test3char => &$test3charEmpty) {
                     if (\in_array($test3char, $str_chars, true)) {
@@ -4176,7 +4176,7 @@ final class UTF8
             $test3 = \mb_convert_encoding($test2, 'UTF-8', 'UTF-16BE');
             if ($test3 === $test) {
                 if ($str_chars === []) {
-                    $str_chars = self::count_chars($str, true, false);
+                    $str_chars = self::count_chars($test, true, false);
                 }
                 foreach (self::count_chars($test3) as $test3char => &$test3charEmpty) {
                     if (\in_array($test3char, $str_chars, true)) {
@@ -4252,7 +4252,7 @@ final class UTF8
                  * @psalm-suppress RedundantCondition
                  */
                 if ($str_chars === []) {
-                    $str_chars = self::count_chars($str, true, false);
+                    $str_chars = self::count_chars($test, true, false);
                 }
                 foreach (self::count_chars($test3) as $test3char => &$test3charEmpty) {
                     if (\in_array($test3char, $str_chars, true)) {
@@ -4270,7 +4270,7 @@ final class UTF8
             $test3 = \mb_convert_encoding($test2, 'UTF-8', 'UTF-32BE');
             if ($test3 === $test) {
                 if ($str_chars === []) {
-                    $str_chars = self::count_chars($str, true, false);
+                    $str_chars = self::count_chars($test, true, false);
                 }
                 foreach (self::count_chars($test3) as $test3char => &$test3charEmpty) {
                     if (\in_array($test3char, $str_chars, true)) {
